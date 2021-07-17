@@ -22,7 +22,7 @@ components/TOC : 추가한 내용을 목록으로 가공하여 출력합니다. 
 ## Getting Started
 ```
 git clone https://github.com/seongwonme/React-To-Do-List.git
-cd To-Do-list
+cd React-To-Do-List
 ```
 
 ### Installing
@@ -31,7 +31,6 @@ cd To-Do-list
 Run the following commands into the project folder to install project dependencies.
 
 ```
-npm init
 npm install
 ```
 
