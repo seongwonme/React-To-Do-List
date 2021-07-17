@@ -21,7 +21,7 @@ components/TOC : 추가한 내용을 목록으로 가공하여 출력합니다. 
 ```
 ## Getting Started
 ```
-https://github.com/seongwonme/React-To-Do-List.git
+git clone https://github.com/seongwonme/React-To-Do-List.git
 cd To-Do-list
 ```
 
