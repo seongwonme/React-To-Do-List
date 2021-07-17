@@ -1,3 +1,49 @@
+# Todo List
+React, Emotion을 이용하여 작업하였습니다. 버튼들을 활용해 내용 삭제 및 비활성화 재활성화가 가능합니다.
+
+**![todolist](https://images.velog.io/images/mzsw/post/bed0e070-056e-46a2-ac11-0989514e7c53/todolist.png)**  
+
+
+## 주요 특징 및 개선사항
+
+1. 최초 V 버튼 클릭 시 해당 내용이 목록 최하단으로 이동하며 비활성화 색상으로 변합니다.
+2. V 버튼 재클릭 시 목록의 최상단으로 내용이 이동하며 활성화 색상으로 변합니다.
+3. X 버튼 클릭 시 목록에서 제거됩니다.
+4. TOC.js 파일의 컴포넌트를 2개로 분리하여 컨테이너 컴포넌트를 사용하여 리팩토링하였습니다.
+
+
+## 컴포넌트 요약
+```
+App : 모든 컴포넌트들의 데이터를 State로 관리하고 Input과 TOC(목록) 컴포넌트를 호출합니다.
+components/Create : form 기능을 제공하고 버튼 클릭 시 입력한 내용을 props 함수의 파라미터로 제공합니다.
+components/TOC : 추가한 내용을 목록으로 가공하여 출력합니다. X or V 버튼 클릭 시 해당 컴포넌트의 
+인덱스와 버튼 정보를 상위 컴포넌트로 제공합니다.
+```
+## Getting Started
+```
+https://github.com/seongwonme/React-To-Do-List.git
+cd To-Do-list
+```
+
+### Installing
+
+아래 사항들로 현 프로젝트에 관한 모듈들을 설치할 수 있습니다.
+Run the following commands into the project folder to install project dependencies.
+
+```
+npm init
+npm install
+```
+
+## Built With
+
+* [ReactJS](https://reactjs.org/)
+* [EmotionJS](https://emotion.sh/docs/introduction)
+
+## Author(s)
+
+* **Lee Seong Won** - *Junior Web Developer* - [GitHub account](https://github.com/seongwonme)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
